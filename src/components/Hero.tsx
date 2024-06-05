@@ -10,7 +10,7 @@ interface IProps {
 export default function Hero({setRatio} : IProps) {
   return (
     <div className='w-full h-screen relative'>
-      <Image src={'/intro.jpg'} alt='no Image' fill className="w-full h-full object-fill hidden md:block " onLoadingComplete={({ naturalWidth, naturalHeight }) =>
+      <Image src={'/hose.jpg'} alt='no Image' fill className="w-full h-full object-fill hidden md:block " onLoadingComplete={({ naturalWidth, naturalHeight }) =>
           setRatio(naturalWidth / naturalHeight)
         } />
       <div className='w-full flex-col md:hidden h-full relative flex items-center px-3 justify-center text-center'>

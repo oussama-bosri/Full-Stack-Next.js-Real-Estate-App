@@ -10,9 +10,9 @@ const poppin = Poppins({
 
 
 export const metadata = {
-  title: 'Ecommerce Next App',
-  description: 'Developed by Abdullah Moiz',
-  authors: [{ name: "Abdullah Moiz", url: 'https://abdullahmoiz.vercel.app/' }],
+  title: 'NEXTSTORE',
+  description: 'Developed by Oussama BOSRI',
+  authors: [{ name: "Oussama BOSRI", url: 'https://oussamabosri.com/' }],
 }
 
 export default function RootLayout({
